@@ -18,7 +18,7 @@
       transaction.push({
         id:Date.now(),
         description:des,
-        amountd
+        amount
       });
       localStorage.setItem("transaction",JSON.stringify(transaction));
       updateTransaction();
